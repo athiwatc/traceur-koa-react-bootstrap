@@ -20,13 +20,13 @@ app.listen(3000);
 
 // Stuff that still uses callback
 function ioStuff(giveBack) {
-    return new Promise((resolve) => {
+    return (cb) => {
         // Database operation for example
         setTimeout(() => {
-            resolve({
+            cb(null, {
                 text: 'How easy was that? ',
                 magicNumber: giveBack + 1327
             });
         }, 1000);
-    });
+    };
 }
