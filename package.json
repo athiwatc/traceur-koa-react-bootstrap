@@ -1,0 +1,17 @@
+{
+  "name": "traceur-koa-bootsrap",
+  "version": "1.0.0",
+  "description": "A bootstrap for using koa with traceur (Does not need node 0.11.x and a lot more es6 features).",
+  "main": "bootstrap.js",
+  "dependencies": {
+    "koa": "^0.13.0",
+    "koa-trie-router": "^1.0.9",
+    "traceur": "0.0.72"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Athiwat Chunlakhan",
+  "license": "MIT"
+}
