@@ -14,4 +14,4 @@ traceur.require.makeDefault(function(filename) {
         asyncFunctions: true
     });
 
-require('./app');
+require('./src/app');

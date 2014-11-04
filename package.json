@@ -8,7 +8,9 @@
     "koa-trie-router": "^1.0.9",
     "traceur": "0.0.72"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.10"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
