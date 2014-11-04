@@ -1,4 +1,4 @@
-traceur-koa-bootsrap
+traceur-koa-react-bootstrap
 ====================
 
 A bootstrap for using koa with traceur (Does not need node 0.11.x and a lot more es6 features).
